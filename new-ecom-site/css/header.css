@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0;
+}
+#badge{
+    position: absolute;
+    background-color: rgb(255, 30, 30);
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 14px;
+    top: 10px;
+    right:158px;
+}
+#container{
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1.5fr 1.5fr 5fr 1fr;
+    z-index: 1;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149); 
+}
+#shopName{
+    font-size: 40px;
+    font-family: 'Lato',sans-serif;
+}
+#shopName a{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+#shopName > b{
+    font-weight: 900;
+    font: bla;
+}
